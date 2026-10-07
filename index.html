@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | [MUHAMMAD SULAIMAN RAFIQ]</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header container">
+        <nav aria-label="Primary navigation" class="grid-layout nav-grid">
+            <div class="nav__brand">
+                <a href="#hero">[MUHAMMAD SULAIMAN RAFIQ]</a>
+            </div>
+            <div class="nav__status text-micro">
+                AVAILABLE FOR COLLABORATION
+            </div>
+
+            <!-- Checkbox Hack untuk Hamburger Menu (Tanpa JS) -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+            <label for="menu-toggle" class="hamburger-btn" aria-label="Toggle menu">
+                <span class="hamburger-icon"></span>
+            </label>
+
+            <!-- FIXED: Menggunakan Semantic List (ul > li) untuk Navigasi -->
+            <ul class="nav__links">
+                <li><a href="#about">01 / ABOUT</a></li>
+                <li><a href="#projects">02 / WORK</a></li>
+                <li><a href="#experience">03 / HISTORY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="hero" class="hero container">
+            <h1 class="hero__title">
+                <span class="hero__title-line line-1">[MUHAMMAD</span>
+                <span class="hero__title-line line-2">SULAIMAN <span class="mobile-break">RAFIQ]</span></span>
+                <span class="hero__title-line line-3">PORTFOLIO</span>
+            </h1>
+
+            <div class="grid-layout hero__details">
+                <div class="hero__context">
+                    <div>
+                        <span class="text-micro">FIELD</span>
+                        <div class="text-body">Informatics</div>
+                    </div>
+                    <div>
+                        <span class="text-micro">CURRENTLY</span>
+                        <div class="text-body">Learning, building, exploring</div>
+                    </div>
+                </div>
+
+                <div class="hero__intro">
+                    <p>I study software, systems, and the small decisions that turn ideas into useful digital products.
+                        Based in Malang, Indonesia.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section container grid-layout">
+            <h2 class="section-title">01 / Context</h2>
+
+            <div class="about__content">
+                <div class="about__text">
+                    <p>I’m an Informatics student interested in understanding how ideas move from sketches, logic, and
+                        messy first attempts into working digital products.</p>
+                    <p>Currently studying at [UNIVERSITAS MUHAMMADIYAH MALANG], I focus on writing code that makes sense
+                        to the next person reading it and building interfaces that don't overwhelm the user.</p>
+                </div>
+
+                <div class="about__meta-grid">
+                    <div>
+                        <span class="text-micro">LOCATION</span>
+                        <div class="text-body">Malang, Indonesia</div>
+                    </div>
+                    <div>
+                        <span class="text-micro">FOCUS</span>
+                        <div class="text-body">Web Development<br>Software Engineering</div>
+                    </div>
+                    <div>
+                        <span class="text-micro">STATUS</span>
+                        <div class="text-body">B.Sc Student (2026)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section container grid-layout">
+            <h2 class="section-title">02 / Work</h2>
+
+            <div class="work__content">
+                <div class="project-table">
+
+                    <!-- FIXED: <article> dikembalikan agar valid secara semantik entitas -->
+                    <a href="#" class="project-link">
+                        <article class="project-row">
+                            <span class="project-num text-micro">01</span>
+                            <h3 class="project-name">Campus Library Sys</h3>
+                            <span class="project-stack text-micro">Java / JavaFX</span>
+                            <span class="project-year text-micro">2025</span>
+                        </article>
+                    </a>
+
+                    <a href="#" class="project-link">
+                        <article class="project-row">
+                            <span class="project-num text-micro">02</span>
+                            <h3 class="project-name">Flipplay Landing</h3>
+                            <span class="project-stack text-micro">HTML / CSS</span>
+                            <span class="project-year text-micro">2026</span>
+                        </article>
+                    </a>
+
+                    <a href="#" class="project-link">
+                        <article class="project-row">
+                            <span class="project-num text-micro">03</span>
+                            <h3 class="project-name">[Project Title]</h3>
+                            <span class="project-stack text-micro">[Tech Stack]</span>
+                            <span class="project-year text-micro">[Year]</span>
+                        </article>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE & EDUCATION -->
+        <section id="experience" class="section container grid-layout">
+            <h2 class="section-title">03 / History</h2>
+
+            <div class="history__content">
+
+                <article class="history-block">
+                    <time class="history-time" datetime="2025">2025 — Present</time>
+                    <div class="history-details">
+                        <h3>[AIESEC]</h3>
+                        <span class="role text-micro">[Team Leader of Talent Analytics]</span>
+                        <p class="text-body">[Deskripsi kontribusi dan tanggung jawab secara spesifik. Fokus pada
+                            pemecahan masalah dan proses eksekusi.]</p>
+                    </div>
+                </article>
+
+                <article class="history-block">
+                    <time class="history-time" datetime="2024">2024 — Present</time>
+                    <div class="history-details">
+                        <h3>B.Sc. Informatics</h3>
+                        <span class="role text-micro">[UNIVERSITAS]</span>
+                        <p class="text-body">Relevant subjects:</p>
+
+                        <ul class="subject-list text-body">
+                            <li>Object-Oriented Programming</li>
+                            <li>Web Programming</li>
+                            <li>Data Structures</li>
+                            <li>Algorithms</li>
+                            <li>Database Systems</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SKILLS INDEX -->
+        <!-- FIXED: Menambahkan ID agar dokumen tidak floating -->
+        <section id="skills" class="section container grid-layout">
+            <h2 class="section-title">04 / Skills</h2>
+
+            <div class="index__content">
+                <div class="index-col">
+                    <h3 class="text-micro">LANGUAGES</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="index-col">
+                    <h3 class="text-micro">WEB</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Responsive</li>
+                    </ul>
+                </div>
+                <div class="index-col">
+                    <h3 class="text-micro">TOOLS</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="index-col">
+                    <h3 class="text-micro">CONCEPTS</h3>
+                    <ul>
+                        <li>OOP</li>
+                        <li>Data Structures</li>
+                        <li>Algorithms</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRINCIPLES -->
+        <!-- FIXED: Menambahkan ID -->
+        <section id="ethos" class="section container grid-layout">
+            <h2 class="section-title">05 / Ethos</h2>
+
+            <div class="principles__content">
+                <div class="principle">
+                    <span class="principle-num">01</span>
+                    <p class="principle-text">Understand before automate.</p>
+                </div>
+                <div class="principle">
+                    <span class="principle-num">02</span>
+                    <p class="principle-text">Simple interfaces require careful decisions.</p>
+                </div>
+                <div class="principle">
+                    <span class="principle-num">03</span>
+                    <p class="principle-text">Learning by building beats learning by watching.</p>
+                </div>
+                <div class="principle">
+                    <span class="principle-num">04</span>
+                    <p class="principle-text">Code should make sense to the next person reading it.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact-section container grid-layout">
+            <h2 class="contact__headline">LET'S BUILD<br>SOMETHING.</h2>
+
+            <address class="contact__info">
+                <div>
+                    <span class="text-micro">EMAIL</span><br>
+                    <a href="mailto:[rafiq50121f@gmail.com]" class="contact-link">[rafiq50121f@gmail.com]</a>
+                </div>
+                <div>
+                    <span class="text-micro">GITHUB</span><br>
+                    <a href="https://github.com/R45FIQ" class="contact-link" target="_blank"
+                        rel="noopener noreferrer">[R45FIQ]</a>
+                </div>
+                <div>
+                    <span class="text-micro">LINKEDIN</span><br>
+                    <a href="https://linkedin.com/in/muhammad-sulaiman-rafiq-563166324" class="contact-link" target="_blank"
+                        rel="noopener noreferrer">[Muhammad Sulaiman Rafiq]</a>
+                </div>
+            </address>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <div class="footer-grid">
+            <div class="footer-left text-micro">[MUHAMMAD SULAIMAN RAFIQ] / 2026</div>
+            <div class="footer-center text-micro">MALANG, ID</div>
+            <div class="footer-right text-micro"><a href="#hero">BACK TO TOP ↑</a></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
